@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    float: left;
+    height: 40px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #F0F0F0;
+}
+
+.usercard{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #F0F0F0;
+    background-color: #F0F0F0;
+    float : left;
+    display: flex;
+    margin-left: 20px;
+}
+
+.usercard:hover{
+    border-color: black;
+}
+
+.usercard img{
+    display: inline-block;
+    justify-content: center;
+}
+
+.usercard p{
+    display: inline-block;
+    justify-content: center;
+    padding-right: 5px;
+}
