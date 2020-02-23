@@ -23,7 +23,7 @@ if (isset($_POST['submitlogin'])) {
 			// var_dump($result);die;
 			if ($result->num_rows == 1) {
 				
-				$_SESSION['user_id'] = $result->username;
+				$_SESSION['user_id'] = $username;
 				header("Location: ../index.php");
 				exit();
 			} else { // user don't exist

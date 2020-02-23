@@ -19,7 +19,7 @@
 		</div>
 		<button type="submit" name="submitlogin">Sign in</button>
 		<div class="error">
-			<t name="errormsg"></t>
+			<t name="errormsg"><?php if(isset($_GET['error'])) echo('Username/Mot de passe incorrect') ?></t>
 		</div>
 	</form >
 	</div>
