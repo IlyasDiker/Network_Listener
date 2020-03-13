@@ -11,4 +11,4 @@ small project read data from database & display in form of cards on a clean & si
   - header.php : the page header
   - content.php: display the cards
 - **Img** : contain 3 picture required by content.php & 1 pic required by header.php
-
+  - etc ...
